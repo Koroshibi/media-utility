@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========== Media Toolkit : spécifique projet ==========
+
+# Outils IA / config locale
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Sorties de conversion générées par l'app
+converted_mp3/
+compressed/
+*_compressed.*
+
+# Fichiers média de test (ne pas committer les médias utilisateur)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.wmv
+*.flv
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.opus
+*.aac
+*.ogg
+# NB : les .png/.jpg ne sont pas exclus (utiles pour d'éventuels screenshots
+# de documentation). Les ajouter ici si besoin.

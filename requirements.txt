@@ -1,0 +1,6 @@
+# Interface graphique moderne
+customtkinter>=5.2.0
+
+# Drag & Drop (optionnel mais recommandé)
+# Si absent, l'app fonctionne avec le bouton « + Ajouter »
+tkinterdnd2>=0.4.0
